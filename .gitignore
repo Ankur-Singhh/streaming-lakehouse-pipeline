@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Environment Variables
+.env
+
+# Spark & Iceberg runs
+warehouse/
+derby.log
+metastore_db/
+checkpoint/
+.checkpoint/
+
+# IDE / OS
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
